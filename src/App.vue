@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row h-screen p-0 w-200 bg-slate-200">
+  <div class="flex flex-row h-screen p-0 bg-blue-300 columns-12">
     <dashboard/>
   </div>
 </template>

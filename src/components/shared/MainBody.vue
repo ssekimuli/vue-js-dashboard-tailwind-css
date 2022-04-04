@@ -1,7 +1,6 @@
 <template>
     
-     <div class="w-60">
-         <input type="text">
+     <div class="w-12/20">
         <h2>main</h2>
      </div>
 </template>
