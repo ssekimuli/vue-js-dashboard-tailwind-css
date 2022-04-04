@@ -1,19 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <div class="bg-red-500">
-    <h2>andrew</h2>
+  <div class="flex flex-row h-screen p-0 w-200 bg-slate-200">
+    <dashboard/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+
+import dashboard from './components/Main-Dashboard.vue';
 import './assets/tailwind.css';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    dashboard
   }
 }
 </script>
@@ -24,7 +23,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #55718d;
 }
 </style>
